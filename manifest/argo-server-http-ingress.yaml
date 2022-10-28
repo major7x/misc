@@ -19,7 +19,7 @@ spec:
             port:
               name: http
     host: argocd.staging.alphaflight.meltwater.io
-  tls:
-  - hosts:
-    - argocd.staging.alphaflight.meltwater.io
-    secretName: argocd-secret # do not change, this is provided by Argo CD
+  # tls:
+  # - hosts:
+  #   - argocd.staging.alphaflight.meltwater.io
+  #   secretName: argocd-secret # do not change, this is provided by Argo CD
